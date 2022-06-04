@@ -2,7 +2,7 @@
 INSERT INTO accounts (
  owner,
  balance,
- currencry
+ currency
 ) VALUES (
  $1, $2, $3
 ) RETURNING *;
